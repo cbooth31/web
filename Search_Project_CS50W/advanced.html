@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Advanced Search</title>
+
+    <style>
+
+
+
+        #box {
+            padding-top: 50px;
+            width: 75%;
+            height: 50px;
+            vertical-align: middle;
+            text-align: right;
+        }
+
+        #input1 {
+            vertical-align: middle;
+            width: 50%;min-width: 167px;
+            min-height: 41px;
+            margin-left: 255px;
+            
+        }
+
+        #input2 {
+            vertical-align: middle;
+            width: 50%;min-width: 167px;
+            min-height: 41px;
+            margin-left: 190px;
+        }
+
+        #input3 {
+            vertical-align: middle;
+            width: 50%;min-width: 167px;
+            min-height: 41px;
+            margin-left: 225px;
+        }
+
+        #input4 {
+            vertical-align: middle;
+            width: 50%;min-width: 167px;
+            min-height: 41px;
+            margin-left: 220px;
+        }
+
+
+        #text {
+            float: left;
+            height: 30px;
+            display: table-cell;
+            vertical-align: middle;
+            padding-left: 35px;
+            padding-top: 20px;
+            
+        }
+
+        #back {
+            text-align: right;
+        }
+
+        #head {
+            margin-top: 35px;
+            margin-left: 35px;
+            color: red;
+            font-size: 30px;
+        }
+
+
+        #words {
+            vertical-align: left;
+            padding-left: 35px;
+            padding-top: 40px;
+            
+        }
+
+        #button {
+            background-color: #4d90fe;
+            border: 1px solid #3079ed;
+            color: #fff;
+            height: 30px;
+            width: 120px;
+        }
+    </style>
+
+
+</head>
+
+
+    <body>
+        <div id="back"> 
+            <a href="index.html">Go back to search</a>
+        </div>
+
+        <div id="head">
+            Advanced Search
+        </div>
+
+        <form action="https://www.google.com/search?">
+
+            <div id="words">
+
+                all these words: 
+            
+                <input type="text" id="input1"  name="as_q">
+
+            </div>
+
+            <div id="words">
+
+                this exact word or phrase:
+
+                <input type="text" id="input2" name="as_epq">
+
+            </div>
+
+            <div id="words">
+
+                any of these words:
+
+                <input type="text" id="input3" name="as_oq">
+
+            </div>
+
+            <div id="words">
+
+                none of these words:
+
+                <input type="text" id="input4" name="as_eq">
+
+            </div>
+            
+
+              
+
+                <div id="box">
+                    <input type="submit" value="Advanced Search" id="button" >
+                </div>
+            
+            
+            
+
+
+
+        </form>
+        
+    </body>
+
+</html>
